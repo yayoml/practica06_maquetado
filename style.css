@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif; 
+}
+
+body {
+    position: table;
+    height: 800px;
+}
+
+.container__left, .container__right{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.logo__container {
+    background-color: aqua;
+    padding: 25px;
+}
+
+.container__left {
+    width: 50%;
+    text-align: center;
+    padding: 100px;
+}
+
+.container__right {
+    width: 50%;
+    text-align: center;
+    padding: 25px;
+    background: none;
+}
+
+.register {
+    padding: 25px;
+    width: 250px;
+    margin: 25px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.facebook, .instagram, .twitter {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    top: -150px;
+    float: right;
+    padding-right: 25px;
+}
+
+.attribution {
+    padding: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Estilos para dispositivos con un ancho máximo de 768px, como tablets */
+    body {
+      height: auto;
+    }
+    
+    .container__left,
+    .container__right {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 25px;
+    }
+    
+    .logo__container {
+      padding: 15px;
+    }
+    
+    .register {
+      width: 200px;
+      margin: 15px;
+    }
+    
+    .facebook,
+    .instagram,
+    .twitter {
+      top: 0;
+      float: none;
+      padding-right: 0;
+    }
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos con un ancho máximo de 480px, como smartphones */
+    .container__left,
+    .container__right {
+      padding: 15px;
+    }
+    
+    .register {
+      width: 150px;
+      margin: 10px;
+    }
+  }
+
+
+
+
+
+     
+    
+
+
+
+
